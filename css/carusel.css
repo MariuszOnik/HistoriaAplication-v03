@@ -1,0 +1,93 @@
+/*#carusel-1-ramka{
+    position: absolute;
+    width: 19%;;
+    
+    top:49%;
+    
+    left:24.9%;
+    transform: translate(-50%, -50%) !important;
+  
+    
+    border-radius: 50%;
+    
+}*/
+
+
+#carusel-image-1{
+    position: absolute;
+    top: 35%;
+    left: 16.45%;
+    width: 16%;
+  
+    overflow: hidden !important;
+    border-radius: 50%;
+    
+    
+    animation-duration: 1s;
+}
+#carusel-image-2{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    width: 16%;
+  
+    overflow: hidden !important;
+    border-radius: 50%;
+    
+    
+    animation-duration: 1s;
+    
+}
+#carusel-image-3{
+    position: absolute;
+    top: 35%;
+    left: 67.55%;
+    width: 16%;
+  
+    overflow: hidden !important;
+    border-radius: 50%;
+    
+    
+    animation-duration: 1s;
+}
+
+.contrast-button{
+    position: absolute;
+    width: 5%;
+    top: 84%;
+    
+    left: 79%;
+}
+.kolo-pl{
+    position: absolute;
+    width: 20%;
+    border: 3px solid white;
+    height: 35%;
+    top: 25%;
+    left:55%;
+    background-image: url("../img/united-kingdom-flag-medium.png");
+    background-repeat: no-repeat;;; 
+    overflow: hidden !important;
+    background-size: 200%;
+    background-position: center;;
+    border-radius: 50%
+
+}
+.kolo-en{
+    position: absolute;
+    width: 20%;
+    border: 3px solid white;
+    height: 35%;
+    top: 25%;
+    left:25%;
+    background-image: url("../img/united-kingdom-flag-medium.png");
+    background-repeat: no-repeat;;; 
+    overflow: hidden !important;
+    background-size: 200%;
+    background-position: center;;
+    border-radius: 50%
+
+}
+/*.kolo:hover{
+    border: 13px solid rgb(238, 245, 197);
+}*/

@@ -1,0 +1,184 @@
+#h-m-b-i{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*HISTORIA*/
+.h-m-h1-title-1{
+    position: absolute; top: 15%; left: 15%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 2vw ; font-weight: 200;
+    text-align: center; transform: translate(-50%, -50%) !important;
+}
+/*CZESTOCHOWY*/
+.h-m-h1-title-2{
+    position: absolute; top: 15%; left: 30%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 2vw  !important; 
+    font-weight: 500; transform: translate(-50%, -50%) !important;
+}
+.h-m-h1-title-2.en{
+    left: 31% !important;
+}
+/* MIASTA NAD WARTA*/
+.h-m-h1-title-3{
+    position: absolute; top: 20%; left: 31%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 1vw ; font-weight: 200;
+    text-align: center; transform: translate(-50%, -50%) !important;
+}
+.h-m-h1-title-3.en{
+    left: 34% !important;
+}
+
+.h-m-wrap-1{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    overflow: hidden;
+    width: 15%;
+    height: 26%;
+    border-radius: 50%;
+    ;
+    border: 5px solid antiquewhite
+}
+
+.h-m-wrap-1 > img {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-radius: 50%;
+}
+  
+.h-m-wrap-1 > img#h-m-historia-1-b {
+    top: 100%;
+}
+.h-m-wrap-1 > img#h-m-historia-1-b.active {
+    top: 0%;
+    transition: top 1.5s;
+}
+
+#h-m-historia-1-b{
+    width: 100%;
+}
+#h-m-historia-1-a{
+    width: 100%;
+}
+
+#h-m-historia-2-b{
+    width: 100%;
+}
+#h-m-historia-2-a{
+    width: 100%;
+}
+#h-m-historia-3-b{
+    width: 100%;
+}
+#h-m-historia-3-a{
+    width: 100%;
+}
+
+
+/*-------------------wraper 2 ----------------------------*/
+.h-m-wrap-2{
+    position: absolute;
+    top: 35%;
+    left:42.5%;
+    overflow: hidden;
+    width: 15%;
+    height: 26%;
+    border-radius: 50%;
+    border: 5px solid antiquewhite;
+}
+
+.h-m-wrap-2 > img {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-radius: 50%;
+}
+  
+.h-m-wrap-2 > img#h-m-historia-2-b {
+    top: 100%;
+}
+.h-m-wrap-2 > img#h-m-historia-2-b.active {
+    top: 0%;
+    transition: top 1.5s;
+}
+
+#h-m-historia-2-b{
+    width: 100%;
+}
+#h-m-historia-2-a{
+    width: 100%;
+}
+
+/*----------------------------wraper3----------------------------*/
+.h-m-wrap-3{
+    position: absolute;
+    top: 35%;
+    left:67%;
+    overflow: hidden;
+    width: 15%;
+    height: 26%;
+    border-radius: 50%;
+    border: 5px solid antiquewhite;
+}
+
+.h-m-wrap-3 > img {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-radius: 50%;
+}
+  
+.h-m-wrap-3 > img#h-m-historia-3-b {
+    top: 100%;
+}
+.h-m-wrap-3 > img#h-m-historia-3-b.active {
+    top: 0%;
+    transition: top 1.5s;
+}
+
+#h-m-historia-3-b{
+    width: 100%;
+}
+#h-m-historia-3-a{
+    width: 100%;
+}
+
+.h-m-h1-historia-1{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    color:antiquewhite;
+   
+    ;;
+  
+    font-size: 2vw;
+    font-weight: 500;
+    transform: translate(-50%, -50%) !important;
+
+}
+.h-m-h1-historia-2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color:antiquewhite;
+    ;;
+    
+    font-size: 2vw;
+    font-weight: 500;
+    transform: translate(-50%, -50%) !important;
+  
+ 
+}
+.h-m-h1-historia-3{
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    color:antiquewhite;
+    ;;
+ 
+    font-size: 2vw;
+    font-weight: 500;
+    transform: translate(-50%, -50%) !important;
+   
+
+}

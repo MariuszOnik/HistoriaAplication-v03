@@ -1,0 +1,15 @@
+var zanikanie = "fadeOut"; 
+var pojawianie = "fadeIn";
+var bounceOut = "bounceOut";
+var bounceIn = "bounceIn";
+var fadeInLeft = "fadeInLeft";
+var fadeInRight = "fadeInRight";
+var rotateIn = "rotateIn";
+var flash = "flash"; 
+var rotateOut = "rotateOut"
+var rotateIn = "rotateIn";
+var flipInX = "flipInX";
+var pulse = "pulse"
+var fadeOutLeft = "fadeOutLeft"
+var zoomIn = "zoomIn"
+var flipOutX= "flipOutX"

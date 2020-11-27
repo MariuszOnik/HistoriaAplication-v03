@@ -1,0 +1,21 @@
+/*.wrap {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .wrap > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .wrap > img#zyx {
+    top: 200px;
+  }
+  .wrap > img#zyx.active {
+    top: 0;
+    transition: top 1.5s;
+  }*/

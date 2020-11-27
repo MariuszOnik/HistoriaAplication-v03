@@ -1,0 +1,69 @@
+#m-b-i{
+    position: absolute; top: 50%; left: 50%; width: 100%; transform: translate(-50%, -50%) !important;
+}
+
+.logo-muzeum{
+    position: absolute; height: 6%; left: 90%; top: 90%; -webkit-transform: translate(-50%, -50%); 
+}
+
+.logo-czestochowy{
+    position: absolute; width: 6%; left: 80%; top: 90%; -webkit-transform: translate(-50%, -50%); 
+}
+
+.logo-ratusz{
+    position: absolute; width: 6%; left: 70%; top: 88.1%; -webkit-transform: translate(-50%, -50%); 
+}
+
+
+.m-image-historia{
+    position: absolute; top: 35.6%; left: 17%; width: 15%;
+    /*transform: translate(-50%, -50%) !important;*/
+}
+
+.m-image-rynek{
+    position: absolute; top: 35.6%; left: 42.5%; width: 15%; /*transform: translate(-50%, -50%) !important;*/
+}
+
+.m-image-plany{
+    position: absolute; top: 35.6%; left: 68%; width: 15%; /*transform: translate(-50%, -50%) !important;*/
+}
+
+/*HISTORIA*/
+.m-h1-title-1{
+    position: absolute; top: 15%; left: 15%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 3vw ; font-weight: 200;
+    text-align: center; transform: translate(-50%, -50%) !important;
+}
+/*CZESTOCHOWY*/
+.m-h1-title-2{
+    position: absolute; top: 15%; left: 37%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 3vw  !important; 
+    font-weight: 500; transform: translate(-50%, -50%) !important;
+}
+.m-h1-title-2.en{
+    left: 39% !important;
+}
+/* MIASTA NAD WARTA*/
+.m-h1-title-3{
+    position: absolute; top: 20%; left: 38%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 1.5vw ; font-weight: 200;
+    text-align: center; transform: translate(-50%, -50%) !important;
+}
+.m-h1-title-3.en{
+    left: 42% !important;
+}
+
+
+.m-h1-historia{
+    position: absolute; top: 72%; left: 24%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 5vh; font-weight: 500;
+    transform: translate(-50%, -50%) !important; font-size: 2vw !important;
+}
+.m-h1-rynek{
+    position: absolute; top: 72%; left: 50%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 5vh; font-weight: 500;
+    transform: translate(-50%, -50%) !important; font-size: 2vw !important;
+}
+  
+.m-h1-plany{
+    position: absolute; top: 72%; left: 75%; color:antiquewhite; margin: 0%; padding: 0%; font-size: 5vh; font-weight: 500;
+    transform: translate(-50%, -50%) !important; font-size: 2vw !important;
+}
+
+
+  

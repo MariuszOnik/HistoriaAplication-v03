@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+   
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/historiaAplicationStlyle.css"> 
+    <link rel="stylesheet" href="./css/language-selection.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/carusel.css">
+    <link rel="stylesheet" href="./css/AnimateImageslide.css">
+    <link rel="stylesheet" href="./css/historia-menu.css">
+    <link rel="stylesheet" href="./css/historia-2.css">
+    <link rel="stylesheet" href="./css/historia-3.css">
+   
+
+    
+</head>
+<body>
+
+<!-----------------------------------------BODY-------------------------------------------------->
+<div id="full-screen-panel">
+        
+        <img style="image-rendering:auto;" id="fuul-screen-panel-image" src="">
+
+        <button id="fuul-screen-panel-exit-button" class="zoom-exit">X</button>
+        <img src="./img/zoom-in-white.png" class="hand" alt="">
+        
+       
+</div>
+
+<!----------- PAGE language-selection----------------->
+
+        <div id="language-selection" class="page active-page">
+           
+                       
+                <h1 data-url="menu" data-animation="bounceIn" class="l-s-PL navigation-button ">PL</h1>
+                <h1 data-url="menu" data-animation="bounceIn" class="l-s-EN navigation-button ">EN</h1>
+
+                <img id="l-s-logo-ratusz"  src="./img/LogoRatuszWhite_1160x968.png" alt="">
+                <img id="l-s-logo-muzeum" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                <img id="l-s-logo-chestochowa" src="./img/logo-czestocowa-biale.png" alt="">
+
+         </div>
+<!--------------------MENU MAIN---------------------------------------->
+        <div id="menu" class="page " >
+                
+            
+                <img id="m-b-i"  src="./img/tlo.jpg" alt="">
+    
+
+                <img id='m-i-historia' data-url="historia-menu" class="navigation-button m-image-historia " src="./img/aplikacja TŁO 2 kółko 1.png" alt="">
+                <img id='m-i-rynek' data-url="rynek-menu" class="navigation-button m-image-rynek "src="./img/aplikacja TŁO 2 kółko 2.png" alt="">
+                <img id='m-i-plany'  data-url="plany-menu" class="navigation-button m-image-plany " src="./img/aplikacja TŁO 2 kółko 3.png" alt="">
+                
+                <h1 class="m-h1-title-1 pl">HISTORIA</h1>
+                <h1 class="m-h1-title-2 pl">C Z Ę S T O C H O W Y</h1>
+                <h1 class="m-h1-title-3 pl"> - MIASTA NAD WARTĄ</h1>
+                                
+                <h1 class="m-h1-historia pl">HISTORIA</h1>
+                <h1 class="m-h1-rynek pl">RYNEK</h1>
+                <h1 class="m-h1-plany pl" >PLANY</h1>
+
+                <h1 class="m-h1-title-1 en">HISTORY OF </h1>
+                <h1 class="m-h1-title-2 en"> C Z Ę S T O C H O W A</h1>
+                <h1 class="m-h1-title-3 en">- CITIES ON THE RIVER WARTA</h1>
+                                
+                <h1 class="m-h1-historia en">HISTORY</h1>
+                <h1 class="m-h1-rynek en">TOWN HALL</h1>
+                <h1 class="m-h1-plany en">CITY PLANS</h1>
+             
+               
+                 
+                        
+                <span name="swich-language">
+                                <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                <h5 class="pl-button en" >PL</h5>
+                                <h5 class="en-button pl" >EN</h5>
+                </span>
+                        
+                <img class="logo-czestochowy" src="./img/logo-czestocowa-biale.png" alt="">
+                <img class="logo-muzeum" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                <img class="logo-ratusz"  src="./img/LogoRatuszWhite_1160x968.png" alt="">
+                
+                <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+                               
+        
+        </div>
+<!-------------------------HISTORIA MENU-------------------------------------------->
+        <div id="historia-menu" class="page">
+      
+                <img id="h-m-b-i" class="shadow-light"  src="./img/historia-menu-nowe-tlo-bez-napisu.png" alt="">
+                <h1 class="h-m-h1-title-1 pl">HISTORIA</h1>
+                <h1 class="h-m-h1-title-2 pl">C Z Ę S T O C H O W Y</h1>
+                <h1 class="h-m-h1-title-3 pl"> - MIASTA NAD WARTĄ</h1>
+             
+
+                <h1 class="h-m-h1-title-1 en">HISTORY OF </h1>
+                <h1 class="h-m-h1-title-2 en"> C Z Ę S T O C H O W A</h1>
+                <h1 class="h-m-h1-title-3 en">- CITIES ON THE RIVER WARTA</h1>
+                                
+               
+                <!--img id="carusel-image-1" class="navigation-button" data-url="historia-1" src="./img/Historia/menu/karta-historia-2.jpg" alt=""-->
+                <!--img id="carusel-image-2" class="navigation-button"  data-url="historia-2" src="./img/Historia/menu/karta-historia-3.jpg" alt=""-->
+                <!--img id="carusel-image-3" src="./img/Historia/menu/karta-historia-1.jpg" alt=""-->
+
+                <div class="h-m-wrap-1">
+                        <img class="navigation-button" data-url="historia-1" id="h-m-historia-1-a" >
+                        <img class="navigation-button" data-url="historia-1" id="h-m-historia-1-b" >
+                </div>
+
+                <div class="h-m-wrap-2">
+                                <img class="navigation-button" data-url="historia-2" id="h-m-historia-2-a" >
+                                <img class="navigation-button" data-url="historia-2" id="h-m-historia-2-b" >
+                </div>
+
+                <div class="h-m-wrap-3">
+                                <img class="navigation-button" data-url="historia-3" id="h-m-historia-3-a" >
+                                <img class="navigation-button" data-url="historia-3" id="h-m-historia-3-b" >
+                </div>
+                
+
+                
+                
+                <h1  class="h-m-h1-historia-1 pl ">HISTORIA I</h1>
+                <h1 class="h-m-h1-historia-2 pl ">HISTORIA II</h1>
+                <h1 class="h-m-h1-historia-3 pl ">HISTORIA III</h1>
+
+                                
+                <h1 data-url="historia-1"class="h-m-h1-historia-1 en navigation-button">HISTORY I</h1>
+                <h1 data-url="historia-2"class="h-m-h1-historia-2 en navigation-button">HISTORY II</h1>
+                <h1 data-url="historia-3"class="h-m-h1-historia-3 en navigation-button">HISTORY III</h1>
+
+                <span name="swich-language">
+                                <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                <h5 class="pl-button en" >PL</h5>
+                                <h5 class="en-button pl" >EN</h5>
+                </span>
+                        
+             
+                
+
+
+                <div class="logo-muzeum-menu">
+                         <img class="full-size-image" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                </div>
+               
+                <img data-url="menu"class="navigation-button return" src="./img/return.png" alt="">
+                <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+                 
+           
+        </div>
+<!-------------------------HISTORIA 1-------------------------------------------->
+
+        <div id="historia-1" class="page">
+                
+                <img id="m-b-i" class="shadow-strong"  src="./img/mury_2.png" alt="">
+              
+                
+                <div class="first-column ">
+                      <img class="image-in-slider image-in-slider-1" src="./img/Historia/1/Kazimierz Wielki-historia-1.jpg" alt="">
+                      <h5 class="pl image-in-slider-title-1">1. Figura króla Kazimierza Wielkiego z jego nagrobka, rys. Aleksander Lesser. Muzeum Narodowe w Warszawie.</h5>
+                      <h5 class="en image-in-slider-title-1">Casimir the Great</h5>
+                      <img id="lupa-kazimierz" src="./img/lupa-white256x256.png" alt="">
+                      <img class="image-in-slider image-in-slider-2" src="./img/Historia/1/Dokument  Kaziemierza Wielkiego.jpg" alt="">
+                      <h5 class="pl image-in-slider-title-2">2. Dokument króla Kazimierza Wielkiego z 24 sierpnia 1356 r. przyznający przywilej na lokację dwóch wsi, „jednej zwanej Częstochową i drugiej nad rzeką w dąbrowie tegoż dziedzictwa Częstochowy”. Archiwum Jasnogórskie.</h5>
+                      <h5 class="en image-in-slider-title-2">A document by Casimir the Great</h5>
+                      
+                      <h3 class="pl" id="tlumaczenie-dokumentu-kazimierza-tytul" >Tłumaczenie Dokumentu</h3>
+                      <div class="tlumaczenie">
+                                <p class="pl">Krzepicach 24 sierpnia 1356 roku.</p>
+                                <p class="pl">W imię Pana amen. Ponieważ chcemy, aby w świetnym naszym królestwie powaga naszych postanowień była trwała i nienaruszona. 
+                                                Dlatego aby było znane do obejrzenia, tak obecnym jak przyszłym, 
+                                                obecne pismo:</p> 
+                                <p class="pl">Dlatego my Kazimierz z Bożej łaski król Polski, a także Krakowa, Sandomierza, Sieradza, 
+                                                Łęczycy, Kujaw i Pomorza ziem pan i dziedzic, pragnąc powiększać owoce urodzajne z gajów, 
+                                                dąbrów i lasów i ustawicznie rozszerzać, więc biorąc pod uwagę godne prośby [przedstawione] nam przez 
+                                                naszych wiernych, pokornie kłaniających się, mianowicie Leonarda i Kanimira braci rodzonych, dziedziców 
+                                                Częstochowy (Czanstochoua), obecnie dajemy i nadajemy tymże Leonardowi i Kanimirowi pełną możność lokacji, 
+                                                na terytorium Krakowskim (Cracouiensi), dwu wsi na prawie niemieckim mianowicie Średzkim inaczej Nouifori, 
+                                                jedną na starym miejscu, w którym była położona wspomniana Częstochowa, którą wieś chcemy nazwać właśnie tymże 
+                                                imieniem, drugą zaś wieś położoną w dąbrowie w dziedzictwie tychże zwanym Częstochowa nad rzeką, która potocznie 
+                                                nazywają Rybna.</p> 
+                                <p class="pl">Znosimy również tamże zupełnie (całkowicie) będące w wszelkie prawa polskie i prawa zwyczajowe, 
+                                zwykłe i dodatkowe powinności, które temu prawu niemieckiemu mogłoby przeszkadzać i stawać na przeszkodzie. </p>
+                                <p class="pl">Dlatego zwalniamy tychże wspomnianych Leonarda i Kanimira i ich następców, a także sołtysów i kmieci wspomnianych
+                                                wsi lokowanych od sądów i jurysdykcji wszystkich naszego Królestwa wojewodów, kasztelanów i jakichkolwiek sędziów i wiecznie uwalniamy, 
+                                                w ten sposób, że przed nimi lub przez tych nie powinni być pozywani w pewnych sprawach o głowę (o zabójstwo), 
+                                                kryminalnych, uszkodzenia członków, a ogólnie w [sprawach]większych i mniejszych, jedynie odpowiadać będą(inaczej jak) 
+                                                kmiecie przed swoimi sołtysami, wyznaczonymi przez wspomnianych Leonarda i Kanimira albo ich następców, sołtysi zaś przed 
+                                                panami swoimi, lub przed nami, wszelako skoro powoływać się będą na dokument nasz, zaopatrzony w naszą pieczęć, 
+                                                wtedy przed nami będą stawać, ale nie inaczej, będą odpowiadać jak w prawie swoim niemieckim.
+        
+                                </p>
+                                <p class="pl">Wreszcie, aby wyżej wymienione wsie szybciej i 
+                                                lepiej mogły być urządzone (lokowane) na tym wspomnianym prawie niemieckim, wszystkim razem i każdemu z osobna kmieciom wsi wyżej wspomnianych
+                                                 dajemy i przyznajemy pełną wolność od wszelkich naszych świadczeń, opłat i robocizn [na okres] dwudziestu lat bez przerwy, licząc od daty obecnej. 
+                                                 Na świadectwo tej rzeczy pieczęć naszą nakazujemy przywiesić. Działo się w Krzepicach („in Crzepyce”), w dniu świętego Bartłomieja apostoła (24 sierpnia) 
+                                                 roku Pańskiego M CCC L szóstego (1356). W obecności Janusza prepozyta kościoła w Gnieźnie, Dobiesława kasztelana wiślickiego, Mikołaja podstolego, Jana podczaszego, 
+                                                 Mszczuja łowczego krakowskich, a także Prandoty burgrabiego naszego tamże w Krzepicach. Spisano ręka Grzegorza pisarza dworu naszego.
+                                                 <br>
+                                                 <br>
+                                                 Tłumaczenie
+                                                 <br>
+                                                 Andrzej Kuźma, Karol Nabiałek
+        
+                                </p>
+                                 
+                               
+        
+                      </div>
+                        
+                      
+                      <img id="lupa-kazimierz-dokument" src="./img/lupa-white256x256.png" alt="">
+                </div>
+                
+                <div class='second-column ' >
+                                <p class="pl">Częstochowa zalicza się do najstarszych osad w północno-zachodniej Małopolsce. 
+                                   Po raz pierwszy jej nazwę odnotowano w 1220 r. Biskup krakowski Iwo Odrowąż wystawił 
+                                   wówczas dokument dla klasztoru kanoników regularnych z Mstowa, w którym m.in. odnajdujemy 
+                                   wzmiankę o Częstochowie. W dzierżawczej nazwie osady przechowało się słowiańskie imię Częstocha, 
+                                   pochodzące od imienia Częstobór lub Częstomir, legendarnego jej założyciela i pierwszego posiadacza.      
+                                </p>
+                                <p class="pl">W 1250 r. osadę wymienia bulla papieża Innocentego IV. W kolejnych l. 1325–1327 kościół parafialny 
+                                   w Częstochowie jest wzmiankowany w wykazach świętopietrza, sporządzonych przez kolektorów papieskich. 
+                                   Ważne dla miasta dokumenty wiążą się z osobą króla Kazimierza Wielkiego, ostatniego Piasta na tronie polskim, 
+                                   który bawił w Częstochowie w 1354 r., gdzie spisano dokument na wójtostwo we wsi Siedlec. W 1356 r.
+                                </p>
+                                <p class="pl">Kazimierz III Wielki wystawił kolejny dokument, wyraźnie sugerujący, że Częstochowa była obarczona obowiązkiem stanu,
+                                   czyli powinnością goszczenia monarchy i jego orszaku podczas podróży po kraju. W tym samym roku król nadał przywilej 
+                                   braciom Leonardowi i Kanimirowi na lokację dwóch wsi, „jednej zwanej Częstochową i drugiej nad rzeką w dąbrowie tegoż 
+                                   dziedzictwa Częstochowy”. 
+                                </p>
+                                <!----------------------------------------ENGLISH--------------------------->
+                                <p class="en">Częstochowa is one of the oldest settlements in north-western Lesser Poland. Its name was recorded for the first time in 1220. 
+                                        Iwo Odrowąż, the Bishop of Kraków, issued a document to the regular canons at the Mstów convent, where, among other things, we find 
+                                        Częstochowa first mentioned. The Slavic name of Częstoch, which derived from the name Częstobór or Częstomir, the legendary founder 
+                                        and first owner of the settlement, remained in the name of the settlement. 
+                                </p>
+                                <p class="en">In 1250 the settlement name appears on the bull (papal seal) of Pope Innocent IV. In the following years (1325-1327) the 
+                                        parish church in Częstochowa is mentioned in the lists of the Saint Peter fee prepared by papal collectors. The important city 
+                                        documents are connected with King Casimir the Great, the last Piast king to sit on the Polish throne, who stayed in Częstochowa 
+                                        in 1354, where a document for the reeve in the village of Siedlec was written. 
+                                        
+                                </p>
+                                <p class="en">In 1356, Casimir the Great issued another document, clearly suggesting that Częstochowa was burdened with the duty of 
+                                        the state, that is, the duty of hosting the monarch and his retinue during his travels around the country. In that same year, 
+                                        the king granted two brothers, Leonard and Kanimir, the privilege to settle two villages, “one called Częstochowa and the other 
+                                        by the river in Dąbrowa of the same Częstochowa heritage”.
+                                        
+                                </p>
+                </div>
+              
+                
+                <span name="swich-language">
+                                <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                <h5 class="pl-button en" >PL</h5>
+                                <h5 class="en-button pl" >EN</h5>
+                </span>
+                        
+                
+                <div class="logo-muzeum-menu">
+                        <img class="full-size-image" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                </div>
+                
+                <img data-url="historia-menu"class="navigation-button return" src="./img/return.png" alt="">
+                <div class="font-plus"></div>
+                <div class="font-minus"></div>
+                <img src="./img/contrast-bialy.png" class="contrast-button" alt="">
+                <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+        
+        </div>
+<!-------------------------HISTORIA 2--------------------------------------------->
+        <div id="historia-2" class="page  ">
+                
+                <img id="m-b-i" class="shadow-strong"  src="./img/mury_2.png" alt="">
+                
+                <div id='historia-2-first-column' class="first-column ">
+                        
+                        <div id="slider-historia-2" >
+                                
+                                <span class="image-slider-a">
+                                        <img src="./img/Historia/2/DokumentWładysławaOpolczyka-minaitura.jpg">
+                                       
+                                        
+                                </span>
+                                <span class="image-slider-b">
+                                        <img src="">
+                                        
+                                        
+                                </span>
+                                <span class="image-slider-c">
+                                <img src="">
+                                       
+                                </span>
+ 
+                  
+                        </div>
+                        <h5 class="image-slider-a-title pl">Dokument księcia Władysława II Opolczyka z 3 maja 1377 r., w którym Częstochowę nazwano po raz pierwszy miastem. Archiwum Jasnogórskie.</h5>
+                        <h5 class="image-slider-a-title en">Brak tłumaczenia</h5>
+                        <button class="left-ster"  onclick="nextImage()">></button>
+                        <button  class="right-ster" onclick="prevImage()"><</button>
+                        <h5 id='slider-historia-2-info' class="info"></h5>
+                        
+                </div>
+                <div  class="second-column ">
+                        <p class="pl">Gdy tron Polski obejmował Ludwik Andegaweński, sukcesor zmarłego króla Kazimierza  Wielkiego, dużą połać kraju otrzymał książę Władysław II Opolczyk. Prawem lennym posiadł całą ziemię wieluńską, skrawek ziemi sieradzkiej oraz północno-zachodni fragment ziemi krakowskiej. 
+
+                        </p>
+                        <p class="pl">Opolczyk usilnie popierał rozwój miast, stąd prawdopodobnie kariera miejska Częstochowy, którą miastem nazwano po raz pierwszy w dokumencie księcia Władysława Opolczyka z 3 maja 1377 r. Późniejsze dokumenty pozwalają sądzić, że był to organizm miejski dobrze już ukształtowany. 
+
+                        </p>
+                        <p class="pl">
+                                Miasto rozwinęło się u przeprawy przez Wartę średniowiecznego traktu handlowego. W sąsiedztwie egzystowała dawna wieś, zwana po lokacji miasta Starą Częstochową, a później Częstochówką (w okolicach Rynku Wieluńskiego). 
+                        </p>
+                        <br>
+                        <p class="pl title">Tłumaczenie Dokumentu Opolczyka</p>
+
+                       
+                        <p class="pl">
+
+                        Władysław książę opolski, wieluński, Rusi, nadaje dwóm braciom Jaskowi i Niczkowi hutę żelaza w pobliżu swego miasta Częstochowy na tem samem prawa, jakiego używa Częstochowa, wszakże z obowiązkiem oddawania księciu co sobotę żelaza na dwa pługi.
+                        </p>
+                        <p class="pl">W imię Pańskie amen. My Władysław z Bożej łaski książę opolski, wieluński i ruski, na powszechną pamięć ogłaszamy: które my naszą wolą przez spisanie poniżej wykładamy by bogactwa nasze rozszerzać, braciom Jaśkowi i Niczkowi i tych samych dziedziców i sukcesorów prawnych kuźni i góry żelaznej, blisko miasta naszego Częstochowy położone, w dziedzicznych granicach, a mianowicie tam gdzie stoi kuźnica od rzeki aż po las Kadłubek i do rzeki, gdzie mieszczanie częstochowscy od podstaw budowali drogę, zresztą (w ramach) swoich powinności oraz danin, ścięte drzewo oraz resztę wyposażenia powszechnego dajemy, tamże (kuźnię i górę żelaza Jaśkowi i Niczkowi) przyznajemy oraz ofiarowujemy legalnie, zapewniając o jakości naszego miasta w eksploatacji, na wieczne posiadanie, użytkowanie oraz używanie swoje do obrotu (pieniężnego), według tego we wlasnej osobie użyteczność zostanie zobaczona w eksploatacjia; 
+
+                        </p>
+
+                        <p class="pl">Tak więc Ci bracia oraz we własnej osobie dziedzicy oraz prawni sukcesorzy z zapowiedzianej kuźnicy oraz swojej góry żelaznej zawsze co sobotę żelaza na dwa pługi nam oddadzą. Także jeśli zapowiedziani bracia - dziedzice oraz sukcesorzy - odtąd odejdą podczas gdy jednak im gdzieś jeszcze nie byłaby wyrządzona krzywda oraz gwałt przez starostę oraz wójta, wtedy tamtych (Jaśka i Niczka) kuźnicę z mocy prawa możemy sprzedać, podarować oraz wydzierżawić według woli naszej. Na świadectwo tej rzeczy przywieszamy naszą obecną pieczeć. 
+                        </p>
+
+                        <p class="pl">Działo się to w Częstochowie, w dniu znalezienia świętego krzyża roku pańskiego tysiąc trzysta siedemdziesiątego siódmego (AD 3 maja 1377). Obecni przewidziani mężowie (świadkowie) Hankon Gerlach, Jankon Haym, Mikołaj Kalis, Stachkon Plachta. Franciszek Franec, Bolesław z bratem Stanikonem oraz panem Mikołajem naszym kanclerzem, który obecnych zgromadzonych tu zawarł oraz wiele uwiarygodnił. 
+
+                        </p>
+
+                        <p style="text-align: left !important;" class="pl title">Tłumaczenie Łukasz Pabich</p>
+                       
+                        
+
+                        <p class=en>Brak tłumaczenia , prosze dosłac</p>
+                </div>
+
+                <span name="swich-language">
+                                <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                <h5 class="pl-button en" >PL</h5>
+                                <h5 class="en-button pl" >EN</h5>
+                </span>
+                        
+                
+                <div class="logo-muzeum-menu">
+                        <img class="full-size-image" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                </div>
+                
+                <img data-url="historia-menu"class="navigation-button return" src="./img/return.png" alt="">
+                <div class="font-plus"></div>
+                <div class="font-minus"></div>
+                <img src="./img/contrast-bialy.png" class="contrast-button" alt="">
+                <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+       
+                       
+        </div>
+
+        
+<!-------------------------------HISTORIA 3------------------------------------>
+        <div id="historia-3" class="page">
+                <img id="m-b-i" class="shadow-strong"  src="./img/mury_2.png" alt="">
+                
+                <div id='historia-3-first-column' class="first-column ">
+                        
+                        <div id="slider-historia-3" >
+                                
+                                <span class="image-slider-a">
+                                        <img src="./img/Historia/3/OgólnywidokCzęstochowy.jpg">
+                                       
+                                        
+                                </span>
+                                <span class="image-slider-b">
+                                        <img src="">
+                                        
+                                        
+                                </span>
+                                <span class="image-slider-c">
+                                <img src="">
+                                       
+                                </span>
+ 
+                  
+                        </div>
+                        <h5 class="image-slider-a-title-2 pl">"Ogólny widok Częstochowy od strony Złotej Góry, rys. Władysław Dmochowski, ilustracja z albumu Widoki Częstochowy i Jasnej Góry z opisem, Warszawa 1876W zbiorach Muzeum Częstochowskiego"</h5>
+                        <h5 class="image-slider-a-title-2 en">Brak tłumaczenia</h5>
+                        <button class="left-ster"  onclick="nextImage3()">></button>
+                        <button  class="right-ster" onclick="prevImage3()"><</button>
+                        <h5 id='slider-historia-3-info' class="info"></h5>
+                        
+                </div>
+                <div  class="second-column ">
+                        <p class="pl">
+                                Już po założeniu miasta, na jego obszarze znajdował się, jako ośrodek parafialny, kościół filialny pw. św. Zygmunta. Gdy Władysław II Opolczyk sprowadził z klasztoru św. Wawrzyńca koło węgierskiej Budy ojców paulinów, sytuacja uległa zmianie. 
+                        </p>
+                        <p class="pl">
+                                Zakonnicy otrzymali istniejące obiekty kościoła parafialnego oraz szczodre uposażenie w ziemię i liczne świadczenia w naturze. Miasto nad Wartą od czasów saskich musiało borykać się z poważną konkurencją, albowiem prawa miejskie zyskała klasztorna Częstochówka, wówczas nazywana Nową lub Górną Częstochową.                  
+                        </p>
+                        <p class="pl">
+                                Szczególnie korzystny okres dla Częstochowy, zwany złotym wiekiem, przypadł na lata starostowania w Olsztynie królewicza Zygmunta, księcia Głogowa i Opawy, późniejszego króla Zygmunta I Starego. Miasto otrzymało liczne przywileje ekonomiczne. Wkrótce Częstochowa osiągnęła znaczenie dominujące w najbliższym regionie.                 
+                        </p>
+                        <p class="pl">
+                                Czasy dobrobytu nie trwały długo. Zniszczenia miasta i okolicy w latach szwedzkiego „potopu” oraz w czasie kolejnych działań wojennych w XVII i XVIII stuleciu przyniosły dramatyczny regres w rozwoju Częstochowy. Zrujnowane zabudowania mieszkalne i budynki gospodarcze przez dziesiątki lat pozostawały w gruzach. Prawdopodobnie podobny los spotkał także mury miejskie, które mieszczanie wznieśli zapewne w drugiej połowie XV w.                         
+                        </p>
+                        <p class="pl">
+                                Dopiero u schyłku istnienia pierwszej Rzeczypospolitej dało się zauważyć ożywienie społeczne i gospodarcze. Nowy etap w dziejach Częstochowy zapoczątkował rok 1826. Rada Administracyjna Królestwa Polskiego wydała wówczas akt prawny łączący Starą i Nową (Górną) Częstochowę. W ten sposób sfinalizowano zapoczątkowany w 1818 r. proces zespolenia dwóch organizmów miejskich.                         
+                        </p>
+                        <p class="pl">
+                                Wytyczenie szerokiej arterii łączącej oba miasta stworzyło oś urbanistyczną, wokół, której poczęło się kształtować nowoczesne śródmieście. W wyniku procesu scalającego powstał w zasadzie nowy organizm miejski, posiadający spore znaczenie w skali całego kraju. W połowie drogi łączącej Starą i Nową Częstochowę, na specjalnie wytyczonym placu, w 1828 r. wzniesiono nowy ratusz.
+                        </p>
+                        <p class="en">
+                                Brak tłumaczenia prosze dosłać
+                        </p>
+
+                </div>
+
+                <span name="swich-language">
+                                <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                <h5 class="pl-button en" >PL</h5>
+                                <h5 class="en-button pl" >EN</h5>
+                </span>
+                        
+                
+                <div class="logo-muzeum-menu">
+                        <img class="full-size-image" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                </div>
+                
+                <img data-url="historia-menu"class="navigation-button return" src="./img/return.png" alt="">
+                <div class="font-plus"></div>
+                <div class="font-minus"></div>
+                <img src="./img/contrast-bialy.png" class="contrast-button" alt="">
+                <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+        </div>
+       
+
+<!-------------------------RYNEK PLAC MURY MENU-------------------------------------------->
+
+        <div id="rynek-menu" class="page">
+                        <img id="h-m-b-i" class="shadow-light"  src="./img/historia-menu-nowe-tlo-bez-napisu.png" alt="">
+                        <h1 class="h-m-h1-title-1 pl">HISTORIA</h1>
+                        <h1 class="h-m-h1-title-2 pl">C Z Ę S T O C H O W Y</h1>
+                        <h1 class="h-m-h1-title-3 pl"> - MIASTA NAD WARTĄ</h1>
+                     
+        
+                        <h1 class="h-m-h1-title-1 en">HISTORY OF </h1>
+                        <h1 class="h-m-h1-title-2 en"> C Z Ę S T O C H O W A</h1>
+                        <h1 class="h-m-h1-title-3 en">- CITIES ON THE RIVER WARTA</h1>
+                                        
+                       
+                        <!--img id="carusel-image-1" class="navigation-button" data-url="historia-1" src="./img/Historia/menu/karta-historia-2.jpg" alt=""-->
+                        <!--img id="carusel-image-2" class="navigation-button"  data-url="historia-2" src="./img/Historia/menu/karta-historia-3.jpg" alt=""-->
+                        <!--img id="carusel-image-3" src="./img/Historia/menu/karta-historia-1.jpg" alt=""-->
+        
+                        <div class="h-m-wrap-1">
+                                <img class="navigation-button" data-url="rynek" id="r-m-rynek-1-a" >
+                                <img class="navigation-button" data-url="rynek" id="r-m-rynek-1-b" >
+                        </div>
+        
+                        <div class="h-m-wrap-2">
+                                        <img class="navigation-button" data-url="plac-koscielny" id="r-m-plac-2-a" >
+                                        <img class="navigation-button" data-url="plac-koscielny" id="r-m-plac-2-b" >
+                        </div>
+        
+                        <div class="h-m-wrap-3">
+                                        <img class="navigation-button" data-url="mury" id="r-m-mury-3-a" >
+                                        <img class="navigation-button" data-url="mury" id="r-m-mury-3-b" >
+                        </div>
+                        
+        
+                        
+                        
+                        <h1  class="h-m-h1-historia-1 pl ">HISTORIA I</h1>
+                        <h1 class="h-m-h1-historia-2 pl ">HISTORIA II</h1>
+                        <h1 class="h-m-h1-historia-3 pl ">HISTORIA III</h1>
+        
+                                        
+                        <h1 data-url="historia-1"class="h-m-h1-historia-1 en navigation-button">HISTORY I</h1>
+                        <h1 data-url="historia-2"class="h-m-h1-historia-2 en navigation-button">HISTORY II</h1>
+                        <h1 data-url="historia-3"class="h-m-h1-historia-3 en navigation-button">HISTORY III</h1>
+        
+                        <span name="swich-language">
+                                        <img src="./img/Pusty.png" class="pl-button-wraper" alt="">
+                                        <h5 class="pl-button en" >PL</h5>
+                                        <h5 class="en-button pl" >EN</h5>
+                        </span>
+                                
+                     
+                        
+        
+        
+                        <div class="logo-muzeum-menu">
+                                 <img class="full-size-image" src="./img/LogoMuzeumWhite_544x228.png" alt="">
+                        </div>
+                       
+                        <img data-url="menu"class="navigation-button return" src="./img/return.png" alt="">
+                        <img data-url="language-selection" src="./img/home-page-white.jpg" class="home navigation-button" alt="">
+                         
+        </div>
+
+<!--------------------RYNEK------------------------------------------------------------------->
+        <div id="rynek" class="page">
+
+        </div>
+
+        <div id="plac-koscielny" class="page">
+
+        </div>
+
+        <div id="mury" class="page">
+
+        </div>
+<!-------------------------PLANY MENU-------------------------------------------->
+        <div id="plany-menu" class="page">
+
+        </div>
+      
+<!------------------------SCRIPTS------------------------------------------------>
+
+    <script src="./scripts/GlobalVArible.js"></script>
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+    <script src="./scripts/touch-emulator.js"></script>
+    <script src="./scripts/zoom.js"></script>
+
+    <script src="./scripts/Tools.js"></script>
+    <script src="./scripts/menu.js"></script>
+ 
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/carusel.js"></script>
+    <script src="./scripts/language-selection.js"></script>
+    <script src="./scripts/Animacjaprzejsciaobrazow.js"></script>
+    <script src="./scripts/historia-menu.js"></script>
+    <script src="./scripts/historia-2.js"></script>
+    <script src="./scripts/historia-3.js"></script>
+    <script src="./scripts/rynek-menu.js"></script>
+    
+    
+</body>
+</html>

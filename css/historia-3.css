@@ -1,0 +1,146 @@
+
+#slider-historia-3{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    overflow: hidden;
+    width: 90%;
+    height: 80%;
+    border-radius: 0%;
+    /*border: 2px solid antiquewhite;*/
+}
+
+.fuul-screen-panel-image{
+    height: 80%;
+    
+    
+}
+
+#slider-historia-3 > span > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+   
+   transform: translate(-50%, -50%) !important;
+   height: 100%;
+    
+    will-change: url; 
+  
+    
+   
+}
+
+#slider-historia-3 > span > h5{
+    color: antiquewhite;
+    font-size: 1vw;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    
+}
+
+#slider-historia-3 > span {
+    position: absolute;
+    
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 85%;
+    
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    will-change: transform; 
+   
+    
+}
+.info{
+    color: antiquewhite;
+    font-size: 2vw;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.image-slider-a-title-2{
+    color: antiquewhite;
+    font-size: 1vw;
+    position: absolute;
+    top: 76%;
+   left:50%;
+   width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%) !important;
+    
+}
+
+
+#slider-historia-3 > span.image-slider-b  {
+    opacity: 0;
+}
+#slider-historia-3 > span.image-slider-c  {
+    opacity: 0;
+}
+
+#slider-historia-3 > span.image-slider-b.active {
+    opacity: 1;
+    transition:  1s ease-in-out;
+}
+#slider-historia-3 > span.image-slider-c.active {
+    opacity: 1;
+    
+    transition:  1s ease-in-out;
+   
+}
+
+p.title{
+    
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 800;
+    
+}
+p.title::first-letter{
+   
+    font-size: var(--p-font-size);
+}
+
+.left-ster{
+    transform: translate(-50%, -50%) !important; font-size: 4wv; position: absolute; top: 92%; left: 75%;
+    background-color: rgba(128, 128, 128, 0.171);;
+    color:antiquewhite; font-size: 2vw;
+    border: none;
+}
+   
+
+.right-ster{
+    transform: translate(-50%, -50%) !important; font-size: 4wv; position: absolute; top: 92%; left: 25%;
+    background-color: rgba(128, 128, 128, 0.171);;
+    color:antiquewhite; font-size: 2vw;
+    border: none;
+}
+
+.left-ster:focus {
+    
+    outline: none !important;
+  }
+  .right-ster:focus {
+    
+    outline: none !important;
+  }
+
+  #historia-3-first-column{
+      overflow: hidden !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
